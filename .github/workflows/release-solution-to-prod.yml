@@ -36,9 +36,7 @@ env:
   BUILD_ENVIRONMENT_URL: https://org52c65c0d.crm.dynamics.com
   PRODUCTION_ENVIRONMENT_URL: https://org7d3d1fce.crm.dynamics.com
   USERNAME: admin@CRM546138.onmicrosoft.com
-  CLIENT_ID: 39bfbb8b-f49f-4825-a84e-6864dd4b61b6
-  TENANT_ID: 23928861-5d92-4d35-b847-f1d0a23224aa
-
+ 
 jobs:
   convert-to-managed:
     runs-on: windows-latest
