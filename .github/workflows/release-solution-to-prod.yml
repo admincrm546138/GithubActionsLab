@@ -1,3 +1,5 @@
+
+
 name: release-solution-to-prod
 # prepare for releasing to prod:
 #   convert solution to managed (using a build PowerPlatform environment for the conversion)
@@ -33,10 +35,11 @@ on:
 
 env:
 #edit your values here
+
   BUILD_ENVIRONMENT_URL: https://org52c65c0d.crm.dynamics.com
   PRODUCTION_ENVIRONMENT_URL: https://org7d3d1fce.crm.dynamics.com
   USERNAME: admin@CRM546138.onmicrosoft.com
- 
+
 jobs:
   convert-to-managed:
     runs-on: windows-latest
