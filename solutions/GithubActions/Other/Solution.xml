@@ -85,10 +85,6 @@
     <MissingDependencies>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
-        <Dependent type="62" schemaName="almlab_TimeOffRequests" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
         <Dependent type="80" schemaName="almlab_TimeOffRequests" displayName="Time Off Requests" />
       </MissingDependency>
       <MissingDependency>
