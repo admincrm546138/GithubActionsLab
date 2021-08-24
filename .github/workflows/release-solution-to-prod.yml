@@ -34,8 +34,8 @@ on:
 env:
 #edit your values here
 
-  BUILD_ENVIRONMENT_URL: https://orge58f55ec.crm.dynamics.com/
-  PRODUCTION_ENVIRONMENT_URL: https://org52c65c0d.crm.dynamics.com/
+  BUILD_ENVIRONMENT_URL: https://orge58f55ec.crm.dynamics.com
+  PRODUCTION_ENVIRONMENT_URL: https://org52c65c0d.crm.dynamics.com 
   USERNAME: admin@CRM546138.onmicrosoft.com
 
 jobs:
