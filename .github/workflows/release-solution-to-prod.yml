@@ -10,7 +10,7 @@ on:
       solution_name:
         description: 'name of the solution to worked on from Power Platform'
         required: true
-        default: GithubActions
+        default: PlantDetectionAppV2
        #Do Not change these values
       solution_shipping_folder:
         description: 'folder name for staging the exported solution *do not change*'
@@ -34,8 +34,8 @@ on:
 env:
 #edit your values here
 
-  BUILD_ENVIRONMENT_URL: https://org52c65c0d.crm.dynamics.com
-  PRODUCTION_ENVIRONMENT_URL: https://org7d3d1fce.crm.dynamics.com
+  BUILD_ENVIRONMENT_URL: https://orge58f55ec.crm.dynamics.com
+  PRODUCTION_ENVIRONMENT_URL: https://org52c65c0d.crm.dynamics.com
   USERNAME: admin@CRM546138.onmicrosoft.com
 
 jobs:
